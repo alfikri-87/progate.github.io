@@ -15,7 +15,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_960_720.png);
   background-size: cover;
   color: white;
   text-align: center;
@@ -118,7 +118,6 @@ header {
 }
 
 .lesson-wrapper {
-  height: 500px;
   padding-bottom: 80px;
   background-color: #f7f7f7;
   text-align: center;
@@ -194,8 +193,6 @@ footer {
   padding-top: 30px;
 }
 
-responsive.css
-@media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
+.clear {
+  clear: left;
+}
